@@ -1,0 +1,32 @@
+.signupdiv {
+  background-color: rgb(0, 255, 255);
+  height: 80%;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 1px rgb(199, 198, 198);
+}
+@media (max-width: 1055px) {
+  .signupdiv {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.signupdiv input {
+  width: 70%;
+  height: 30px;
+  align-content: center;
+  padding: 4px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.signupdiv h2 {
+  margin: 10px;
+  font-size: 1.3rem;
+}
+.signupdiv h4 {
+  font-weight: lighter;
+  margin: 10px;
+}
